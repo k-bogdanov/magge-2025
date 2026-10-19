@@ -16,25 +16,27 @@ MAP was obtained from the average rainfall from years 2015-2018
 Details of soil physiochemical analysis including soil pH, mehlich 111 extractions of micro/macro nutrients, total soil carbon (tc) and nitrogen (tn) can be found in the methods section of the paper.
 
 Soil physiochemical properties:	
-TC (%)		Total Carbon
-SOC (%)		Soil Organic Carbon
-TN (%)		Total Nitrogen
-Sand (%)	Sand
-Silt (%)	Silt
-Clay (%)	Clay
-pH		pH
-Al (mg/kg)	Aluminium
-Ca (mg/kg)	Calcium
-Co (mg/kg)	Cobalt
-Cu (mg/kg)	Copper
-Fe (mg/kg)	Iron
-K (mg/kg)	Potassium
-Mg (mg/kg)	Magnesium
-Mn (mg/kg)	Manganese
-Na (mg/kg)	Sodium
-P (mg/kg)	Phosphorus
-S (mg/kg)	Sulfur
-Zn (mg/kg)	Zinc
+| Parameter | Description |
+|---|---|
+| TC (%) | Total Carbon |
+| SOC (%) | Soil Organic Carbon |
+| TN (%) | Total Nitrogen |
+| Sand (%) | Sand |
+| Silt (%) | Silt |
+| Clay (%) | Clay |
+| pH | pH |
+| Al (mg/kg) | Aluminium |
+| Ca (mg/kg) | Calcium |
+| Co (mg/kg) | Cobalt |
+| Cu (mg/kg) | Copper |
+| Fe (mg/kg) | Iron |
+| K (mg/kg) | Potassium |
+| Mg (mg/kg) | Magnesium |
+| Mn (mg/kg) | Manganese |
+| Na (mg/kg) | Sodium |
+| P (mg/kg) | Phosphorus |
+| S (mg/kg) | Sulfur |
+| Zn (mg/kg) | Zinc |
 
 qPCR was performed on all extractions to quantify bacterial (16S rRNA bacteria), crenarchaeal (16S rRNA crenarchaeota) and fungal (ITS) populations, and functional genes involved in nitrification (Ammonia-oxidizing archaea [AOA], ammonia-oxidizing bacteria [AOB] and comammox) and denitrification (nirK, nirS, nosZ clade I, nosZ clade II). Further information on processing can be found in the method section of the paper
 
