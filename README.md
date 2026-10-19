@@ -1,5 +1,4 @@
-# Precipitation and site-specific factors are stronger predictors of soil microbiome
-# composition than pH across geoclimatic gradients
+# Precipitation and site-specific factors are stronger predictors of soil microbiome composition than pH across geoclimatic gradients
 
 **Study background**
 
