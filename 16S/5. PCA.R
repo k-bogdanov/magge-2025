@@ -1,17 +1,11 @@
-Magge_joint_16S_metadata <- Magge_joint_16S_metadata %>% relocate(c(MAP, Treatment, Soil_type, Soil_depth, Cumulative_N20, Cumulative_N2, N2O_ratio, nirk.s:nos.nir), .before = Note) %>% select(-Average_yearly_rainfall)
-
-# Replace NA with missing value 
-Magge_joint_16S_metadata["MAP"][is.na(Magge_joint_16S_metadata["MAP"])] <- 531.93
-
-
+Magge_joint_16S_metadata <- data.frame(Magge_joint_16S_rare@sam_data)
 
 # PCA plot
 
-chem.pca <- prcomp(Magge_joint_16S_metadata[,c(8,16:33)], scale = TRUE)
+chem.pca <- prcomp(Magge_joint_16S_metadata[,c(8,12:29)], scale = TRUE)
 summary(chem.pca)
 var_explained <- chem.pca$sdev^2/sum(chem.pca$sdev^2)
 var_explained[1:5]
-
 
 fig1a <- autoplot(chem.pca, data = Magge_joint_16S_metadata, color = "Soil_pH",loadings = TRUE, loadings.colour = 'black',
                   loadings.label = TRUE, loadings.label.size = 4,loadings.label.repel=T,box.padding = 1, loadings.label.colour = "black")+ 
@@ -22,7 +16,6 @@ fig1a <- autoplot(chem.pca, data = Magge_joint_16S_metadata, color = "Soil_pH",l
   labs(color = "pH", title = "A") +
   guides(col = guide_colorbar(title.position = "top", title.hjust =0.5))
 fig1a
-
 
 # Add table for factor loading regressions
 chem.pca.correlation <- data.frame(chem.pca$rotation[,1:2])
@@ -57,7 +50,6 @@ fig1b <- autoplot(Func.pca, data = Magge_joint_16S_metadata, color="Soil_pH",loa
   labs(color = "pH", title = "B") +
   guides(col = guide_colorbar(title.position = "top", title.hjust =0.5))
 fig1b
-
 
 # Add table for factor loading regressions
 Func.pca.correlation<-data.frame(Func.pca$rotation[,1:2])
