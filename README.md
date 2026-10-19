@@ -1,19 +1,19 @@
 # magge-2025
 
-## Study background
+**Study background**
 
 In this study, we assessed the impact of pH on the soil microbiome and the abundance of N cycling functional communities in agricultural soils at nine sites across seven countries, that encompassed a wide pH range, a geoclimatic gradient and a diversity of soil types and managements. In addition to the natural pH gradients that existed across sites we assessed whether pH management by liming of soils resulted in consistent changes in microbiomes. 
 
-## Sequencing data
+**Sequencing data**
 
 All raw sequences (16S and ITS) for the manuscript "Precipitation and site-specific factors are stronger predictors of soil microbiome composition than pH across geoclimatic gradients". have been deposited into the NCBI SRA database under BioProject accession number PRJNA1138821.
 
 
-## Metadata info
+**Metadata info**
 
 MAP was obtained from the average rainfall from years 2015-2018
 
-Details of soil physiochemical analysis including soil pH, mehlich 111 extractions of micro/macro nutrients, total soil carbon (tc) and nitrogen (tn) can be found in the methods section of the paper[SG1.1].
+Details of soil physiochemical analysis including soil pH, mehlich 111 extractions of micro/macro nutrients, total soil carbon (tc) and nitrogen (tn) can be found in the methods section of the paper.
 
 Soil physiochemical properties:	
 TC (%)		Total Carbon
@@ -62,7 +62,7 @@ nirk/nirs	denitrifier nirK / nirS
 nosi/nosii	denitrifier nosZ clade I / nosZ clade II
 nos/nir		(nosZ clade I + nosZ clade II) / (nirK + nirS)
 
-## Setup
+**Setup**
 
 All figures have been generated from the rarified phyloseq object which are the files with the .rds extension. The 16S phyloseq was rarified to a depth of 17000 reads per sample and the ITS phyloseq was rarified to a depth of 28000 reads per sample. The phyloseq object contains the metadata, ASV table and taxonomy table and is the basis for all figures in this paper. 
 
