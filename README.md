@@ -8,7 +8,6 @@ In this study, we assessed the impact of pH on the soil microbiome and the abund
 
 All raw sequences (16S and ITS) for the manuscript "Precipitation and site-specific factors are stronger predictors of soil microbiome composition than pH across geoclimatic gradients". have been deposited into the NCBI SRA database under BioProject accession number PRJNA1138821.
 
-
 **Metadata info**
 
 MAP was obtained from the average rainfall from years 2015-2018
@@ -72,5 +71,5 @@ qPCR was performed on all extractions to quantify bacterial (16S rRNA bacteria),
 
 **Setup**
 
-All figures have been generated from the rarified phyloseq object which are the files with the .rds extension. The 16S phyloseq was rarified to a depth of 17000 reads per sample and the ITS phyloseq was rarified to a depth of 28000 reads per sample. The phyloseq object contains the metadata, ASV table and taxonomy table and is the basis for all figures in this paper. 
+All figures have been generated from the rarified phyloseq object which are the files with the .rds extension. The 16S phyloseq was rarified to a depth of 17,000 reads per sample and the ITS phyloseq was rarified to a depth of 28,000 reads per sample. The phyloseq object contains the metadata, ASV table and taxonomy table and is the basis for all figures in this paper. 
 
