@@ -15,7 +15,7 @@ MAP was obtained from the average rainfall from years 2015-2018
 
 Details of soil physiochemical analysis including soil pH, mehlich 111 extractions of micro/macro nutrients, total soil carbon (tc) and nitrogen (tn) can be found in the methods section of the paper.
 
-Soil physiochemical properties:	
+*Soil physiochemical properties*
 | Parameter | Description |
 |---|---|
 | TC (%) | Total Carbon |
@@ -40,29 +40,35 @@ Soil physiochemical properties:
 
 qPCR was performed on all extractions to quantify bacterial (16S rRNA bacteria), crenarchaeal (16S rRNA crenarchaeota) and fungal (ITS) populations, and functional genes involved in nitrification (Ammonia-oxidizing archaea [AOA], ammonia-oxidizing bacteria [AOB] and comammox) and denitrification (nirK, nirS, nosZ clade I, nosZ clade II). Further information on processing can be found in the method section of the paper
 
-qPCR gene quantification:	
-bac	16S rRNA bacteria
-cren	16S rRNA crenarchaea
-its	ITS fungi
-nirk	denitrifier nirK
-nirs	denitrifier nirS
-noszi	denitrifier nosZ clade I
-noszii	denitrifier nosZ clade II
-aoa	nitrifier archaeal amoA
-aob	nitrifier bacterial amoA
-coma	nitrifier comammox
+*qPCR gene quantification*
 
-qPCR gene ratios:	
-nirk/s		nirK / 16S rRNA bacteria
-nirs/s		nirS / 16S rRNA bacteria
-noszi/s		nosZ clade I / 16S rRNA bacteria
-noszii/s	nosZ clade II / 16S rRNA bacteria
-aob/s		AOB / 16S rRNA bacteria
-coma/s		comammox / 16S rRNA bacteria
-its/s		ITS fungi / 16S rRNA bacteria
-nirk/nirs	denitrifier nirK / nirS
-nosi/nosii	denitrifier nosZ clade I / nosZ clade II
-nos/nir		(nosZ clade I + nosZ clade II) / (nirK + nirS)
+| Parameter | Description |
+|---|---|
+| bac | 16S rRNA bacteria |
+| cren | 16S rRNA crenarchaea |
+| its | ITS fungi |
+| nirk | Denitrifier nirK |
+| nirs | Denitrifier nirS |
+| noszi | Denitrifier nosZ clade I |
+| noszii | Denitrifier nosZ clade II |
+| aoa | Nitrifier archaeal amoA |
+| aob | Nitrifier bacterial amoA |
+| coma | Nitrifier comammox |
+
+*qPCR gene ratios*
+
+| Parameter | Description |
+|---|---|
+| nirk/s | nirK / 16S rRNA bacteria |
+| nirs/s | nirS / 16S rRNA bacteria |
+| noszi/s | nosZ clade I / 16S rRNA bacteria |
+| noszii/s | nosZ clade II / 16S rRNA bacteria |
+| aob/s | AOB / 16S rRNA bacteria |
+| coma/s | comammox / 16S rRNA bacteria |
+| its/s | ITS fungi / 16S rRNA bacteria |
+| nirk/nirs | Denitrifier nirK / nirS |
+| nosi/nosii | Denitrifier nosZ clade I / nosZ clade II |
+| nos/nir | (nosZ clade I + nosZ clade II) / (nirK + nirS) |
 
 **Setup**
 
